@@ -1,0 +1,618 @@
+/*ESTRUTURA GERAL*/
+
+
+:root {
+    --cor-preta: black;
+    --cor-principal: white;
+    --cor-secundaria: rgb(255, 174, 0);
+    --cor-terciaria: rgb(216, 148, 0);
+    --cor-cinza: rgb(201, 201, 201);
+}
+
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-preta);
+    max-width: 90%;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-align: justify;
+    font-family: "Poppins", system-ui;
+    margin: 30px 0 30px 0;
+
+    overflow-x: hidden;
+}
+
+
+img {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+
+}
+
+
+
+
+
+/*BOTÕES CONFIG*/
+
+
+#botaobranco {
+    margin: 60px 30px 0 0;
+    background-color: var(--cor-principal);
+    color: var(--cor-preta);
+    border: 20px solid var(--cor-principal);
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+#botaobranco:hover {
+    transform: scale(1.2);
+
+}
+
+.botaofechar {
+    height: 30px;
+    cursor: pointer;
+    float: right;
+    margin: 0 0 40px 0;
+}
+
+#botaoabrir {
+    margin: 30px 30px 0 0;
+    background-color: var(--cor-preta);
+    color: var(--cor-principal);
+    border: 20px solid var(--cor-preta);
+    border-radius: 20px;
+    position: absolute;
+    width: 300px;
+    bottom: 30px;
+}
+
+#botaoabrir:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    border: 20px solid var(--cor-secundaria);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+#botaopretocomum {
+    margin: 60px 30px 0 0;
+    background-color: var(--cor-preta);
+    color: var(--cor-principal);
+    border: 20px solid var(--cor-preta);
+    border-radius: 20px;
+}
+
+#botaopretocomum:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    border: 20px solid var(--cor-secundaria);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+#botao:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+    border: 5px solid var(--cor-secundaria);
+    border-radius: 10px;
+
+}
+
+
+
+/*MENU*/
+header {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+
+.direita img,
+.esquerda img {
+    height: 40px;
+}
+
+
+
+.esquerda button {
+    margin-left: 100px;
+
+}
+
+.esquerda button,
+.direita button {
+    color: var(--cor-preta);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.esquerda a {
+    display: block;
+    color: var(--cor-preta);
+    text-decoration: none;
+    padding: 20px 2em 20px 2em;
+    font-weight: 500;
+}
+
+
+.esquerda .menuitens {
+    background-color: var(--cor-principal);
+    position: absolute;
+    min-width: 100px;
+    margin-left: 30px;
+
+
+
+}
+
+.item {
+    background-color: var(--cor-principal);
+}
+
+.menuitens {
+    border: 3px solid var(--cor-secundaria);
+    width: 530x;
+    height: 505px;
+}
+
+.menuitens a:hover {
+    background-color: var(--cor-secundaria);
+    font-weight: bolder;
+    color: var(--cor-principal);
+}
+
+
+
+
+#menu {
+    display: none;
+}
+
+#menu a {
+    display: block
+}
+
+
+/*CATEGORIAS NO MENU LADO A LADO*/
+.div1 {
+    width: 250px;
+    float: left;
+    height: 300px;
+
+}
+
+.div2 {
+    width: 280px;
+    float: left;
+    height: 300px;
+}
+
+
+
+
+
+/*QUAL SERA SUA PRÓXIMA LEITURA - SEÇÃO 1*/
+
+
+.inicio {
+    margin: 20px;
+
+
+    h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 60px;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 3f0px;
+    }
+
+    p {
+        margin-left: 100px;
+        margin-right: 30px;
+    }
+}
+
+
+#barra {
+    border: none;
+    padding: 2em;
+    width: 350px;
+    height: 80px;
+}
+
+#lupa {
+    height: 20px;
+    margin: 15px 0 0 30px;
+    background-color: var(--cor-principal);
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.barrapesquisa {
+    border: var(--cor-preta) solid 3px;
+    border-radius: 5px;
+    left: 510px;
+    margin: 50px 400px 0 400px;
+}
+
+
+.redirect {
+    display: flex;
+
+
+}
+
+
+
+
+/*A IMPORTANCIA DA LEITURA - SEÇÃO 2*/
+
+.bloco {
+    margin: 180px 0 0 0;
+    display: flex;
+    background-color: var(--cor-preta);
+    width: 1530px;
+
+}
+
+
+.bloco2 {
+    color: var(--cor-principal);
+    text-align: justify;
+    padding: 30px 100px 30px 100px;
+
+    h1 {
+        margin: 25px 0 0 0;
+    }
+}
+
+
+
+.topicos {
+    display: flex;
+    display: flex;
+    background-color: var(--cor-principal);
+    width: 1530px;
+
+    h3 {
+        text-align: center;
+
+    }
+
+    .quadro2,
+    .quadro3 {
+        margin: 50px;
+    }
+
+    .quadro1 {
+        margin: 50px 50px 50px 100px;
+    }
+
+    .quadro1,
+    .quadro2,
+    .quadro3 {
+        border: solid 3px var(--cor-preta);
+        border-radius: 30px;
+        padding: 20px;
+        color: var(--cor-preta);
+        width: 510px;
+    }
+
+
+
+    .quadro1:hover {
+        transform: scale(1.1);
+        border: solid 3px var(--cor-secundaria);
+        background-color: var(--cor-secundaria);
+        color: var(--cor-principal)
+    }
+
+    .quadro2:hover {
+        transform: scale(1.1);
+        border: solid 3px var(--cor-secundaria);
+        background-color: var(--cor-principal);
+        color: var(--cor-preta);
+    }
+
+    .quadro3:hover {
+        transform: scale(1.1);
+        border: solid 3px var(--cor-secundaria);
+        background-color: var(--cor-secundaria);
+        color: var(--cor-principal);
+    }
+
+
+
+}
+
+
+
+
+
+/*APRESENTAÇÃO DA MARCA - SEÇÃO 3*/
+
+.apresentacao {
+    margin: 90px 0 0 0;
+    display: flex;
+    background-color: var(--cor-principal);
+    width: 1530px;
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        padding: 0 0 80px 0;
+    }
+
+    img {
+        margin: 50px 250px 30px 420px;
+    }
+
+}
+
+.apresentacao {
+    display: flex;
+    margin: 60px 0 0 0;
+
+    p {
+        height: 200px;
+        padding: 0 150px 0 0;
+        margin: 30px 0 0 400px;
+    }
+}
+
+.tituloapresentacao:hover {
+    animation: movex 5s forwards;
+    background-color: var(--cor-secundaria);
+    width: 4000px;
+}
+
+.tituloapresentacao {
+    background-color: var(--cor-preta);
+    width: 1000px;
+    height: 180px;
+    color: var(--cor-principal);
+    border-right: 30px solid var(--cor-principal);
+
+
+
+
+    position: absolute;
+    right: 50%;
+
+    h1 {
+        margin: 0 0 0 0px;
+        font-size: 50px;
+        padding: 0 60px 0 60px;
+        text-align: right;
+    }
+
+    h2 {
+        padding: 10px 60px 0 60px;
+        margin: 30px 0px 0 0px;
+        font-size: 20px;
+        text-align: right;
+
+    }
+
+    p {
+        text-align: right;
+        position: absolute;
+    }
+
+    img {
+        height: 300px;
+    }
+}
+
+
+/*NOVIDADES DISPONIVEIS - SEÇÃO 4*/
+.novidades {
+    margin: 230px 0 0 100px;
+    display: flex;
+
+    h2 {
+        margin: 0px 0 20px 0;
+    }
+
+    p {
+        margin: 0px 150px 30px 0;
+    }
+
+    img {
+        height: 50px;
+        margin: 20px 50px 30px 0;
+    }
+}
+
+
+
+
+
+/*LIVROS CONFIG */
+
+
+#livro:hover {
+    transform: scale(1.1);
+}
+
+.pasta img {
+    margin: 20px 0 30px 0;
+    height: 400px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.pasta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.info {
+    color: var(--cor-cinza);
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 350px;
+    top: 30%;
+    width: 700px;
+    height: 50%;
+    background-color: var(--cor-principal);
+    border: 3px solid var(--cor-preta);
+    border-radius: 30px;
+    padding: 40px;
+}
+
+
+
+
+
+
+/*ALGUNS AUTORES NO SITE - SEÇÃO 5*/
+/*FAQ: O QUE VOCÊ GOSTARIA DE TER ADICIONADO AO SITE? - SEÇÃO 6*/
+/*COMPARTILHE NOSSO SITE - SEÇÃO 7*/
+/*SOBRE A AUTORA - SEÇÃO 8*/
+
+.sobremim {
+
+    display: flex;
+    background-color: var(--cor-secundaria);
+    padding: 50px 50px 50px 100px;
+    width: 1360px;
+
+
+    img {
+        height: 200px;
+        border: 3px solid var(--cor-secundaria);
+        border-radius: 50%;
+        background-color: var(--cor-principal);
+        padding: 30px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h3,
+    p {
+        margin: 0 0 0 80px;
+        color: var(--cor-principal);
+    }
+
+}
+
+/*RODAPÉ - SEÇÃO 9*/
+
+.rodape {
+    h3 {
+        margin: 40px 0 0 150px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin: 10px 0 0 150px;
+    }
+}
+
+
+
+/*ANIMAÇÕES*/
+
+@keyframes movex {
+    0% {
+        transform: translateX(0)
+    }
+
+    50% {
+        transform: translateX(400px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+/*NAVEGAÇÃO WEBKIT*/
+
+
+*::-webkit-scrollbar-track {
+    background-color: var(--cor-principal);
+    border-radius: 40px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-secundaria);
+    border-radius: 40px;
+    size: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cor-terciaria);
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}

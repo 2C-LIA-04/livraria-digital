@@ -1,0 +1,668 @@
+<!--ANA JÚLIA RIBEIRO FERREIRA - 2C-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--IMPORTANTE-->
+    <title>NOME - LIVRARIA DIGITAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="book.png">
+
+
+    <!--https://codepen.io/sosuke/pen/Pjoqqp-->
+
+</head>
+
+<body>
+
+    <header>
+        <div class="menu" id="guia">
+            <button><img id="botao" src="guia.png"></button>
+
+
+            <div class="categoriasmenu" id="menu">
+                <div class="div1">
+                    <h2>CATEGORIAS</h2><img class="exit" src="exit.png">
+                    <button class="btn-proximo" id="div1" data-proximo="1">AÇÃO E AVENTURA</button>
+                    <button class="btn-proximo" id="div2" data-proximo="2">AUTOAJUDA</button>
+                    <button class="btn-proximo" id="div1" data-proximo="3">BIOGRAFIAS</button>
+                    <button class="btn-proximo" id="div2" data-proximo="4">CONTOS</button>
+                    <button class="btn-proximo" id="div1" data-proximo="5">CRIMES REAIS</button>
+                    <button class="btn-proximo" id="div2" data-proximo="6">EM OUTROS IDIOMAS</button>
+                    <button class="btn-proximo" id="div1" data-proximo="7">FANTASIA</button>
+                    <button class="btn-proximo" id="div2" data-proximo="8">FICÇÃO CIENTIFICA</button>
+                    <button class="btn-proximo" id="div1" data-proximo="9">FICÇÃO LGBT+</button>
+                    <button class="btn-proximo" id="div2" data-proximo="10">LITERATURA ESTRANGEIRA</button>
+                    <button class="btn-proximo" id="div1" data-proximo="11">NACIONAIS</button>
+                    <button class="btn-proximo" id="div2" data-proximo="12">POESIA</button>
+                    <button class="btn-proximo" id="div1" data-proximo="13">ROMANCE</button>
+                    <button class="btn-proximo" id="div2" data-proximo="14">SUSPENSE</button>
+                </div>
+            </div>
+
+
+            <h1>NOME<span>.</span></h1>
+            <h5>LIVRARIA DIGITAL</h5>
+            <button class="btn-proximo" data-proximo="16"><img src="favoritosm.png"></button>
+            <button class="btn-proximo" data-proximo="15"><img src="carrinho.png"></button>
+            <button onclick="openPopup('popup2')"><img src="usuário.png"></button>
+
+            <button href=""><img src="home.png"></button>
+        </div>
+
+
+        <div class="popup" id="popup2">
+            <div class="flex">
+                <img id='livro' src="lili laying.png">
+                <span class="close" onclick="closePopup('popup2')"><img id="exit" src="exit.png"></span>
+                <div class="conteudo">
+                    <h3>LOGIN</h3>
+                    <input type="text" name="NOME" placeholder="NOME">
+                    <input type="email" name="EMAIL" placeholder="EMAIL">
+                    <input type="password" name="SENHA" placeholder="SENHA">
+
+                    <p>NÃO É CADASTRADO? CRIAR CONTA</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <section class="passo ativo" id="passo-0">
+
+        <section class="home">
+            <img src="lili reading.png">
+            <div class="texto">
+                <h2>NOME,</h2><br>
+                <H3>SLOGAN, SLOGAN SLOGAN.</H3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA LEITURA</b></p>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="bemvindos">
+            <h4><span>BEM VINDOS</span> À NOSSA</h4>
+            <h3>LIVRARIA DIGITAL<span>!</span></h3>
+
+
+            <div class="barradepesquisa">
+                <img src="lupa.png">
+                <input type="text" name="search" placeholder="ENCONTRE SUA PRÓXIMA LEITURA">
+            </div>
+            <p>VOCÊ TAMBÉM PODE ENCONTRAR O QUE DESEJA NAVEGANDO PELO MENU!</p>
+        </section>
+
+
+
+
+
+        <section class="importancia">
+            <h2>A IMPORTANCIA DA LEITURA</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatum officia vitae quidem
+                quas
+                repudiandae doloribus a fugiat odio, dignissimos laudantium doloremque. Magni doloremque
+                officiis
+                reiciendis soluta nulla tempora delectus! Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+                Ducimus facilis culpa libero, molestiae veritatis ipsum autem excepturi nam, perferendis unde
+                perspiciatis quaerat quo deserunt deleniti et provident, nulla expedita amet.
+            </p>
+
+            <div class="alltopics">
+                <div class="topic1">
+                    <h3><span>1.</span> TOPIC</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta reiciendis ullam
+                        accusamus cum!
+                        Quas
+                        ipsum totam accusamus magni sunt sapiente, quae a mollitia sit doloremque, rem esse
+                        consequatur
+                        eaque porro.</p>
+                </div>
+
+
+                <div class="topic2">
+                    <h3><span>2.</span> TOPIC</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa repellat atque
+                        illo.
+                        Eaque
+                        repudiandae maxime ipsa facere officia animi, aperiam saepe in deserunt non. Cumque
+                        sapiente
+                        debitis
+                        non repellendus?</p>
+                </div>
+
+
+                <div class="topic3">
+                    <h3><span>3.</span> TOPIC</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam sequi adipisci eaque
+                        nemo
+                        mollitia!
+                        Optio sed hic alias aperiam vero iure qui fuga provident porro impedit, quis dolores
+                        exercitationem
+                        saepe!</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="novidadedasemana">
+
+            <DIV class="tudo">
+                <div class="container">
+                    <div class="flip">
+                        <div class="frente"></div>
+                        <div class="tras"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="texto">
+                    <IMg class="sino" SRC="sino.png">
+                    <h3>NOVIDADES DA SEMANA</h3>
+                    <p><b>CLIQUE NO CARD PARA DESCOBRIR O LIVRO DESSA SEMANA<span>!</span></b></p><BR><BR>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quae tempore optio
+                        temporibus
+                        ratione eligendi similique voluptatibus illum, esse, minima aperiam veniam animi amet,
+                        eum
+                        placeat
+                        quisquam. Consequatur, facere ipsa?</P>
+
+                    <button onclick="openPopup('popup1')">ABRA O LIVRO</button>
+                    <a
+                        href="https://www.amazon.com.br/Quando-estrelas-caem-Mariana-Lucioli/dp/854222292X/ref=asc_df_854222292X/?tag=googleshopp00-20&linkCode=df0&hvadid=709883381737&hvpos=&hvnetw=g&hvrand=13842429427130761304&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9195620&hvtargid=pla-2198503221107&psc=1&mcid=6e4b46ce7b4b363b996c05415b40fd8a&gad_source=1"><button>ACESSE
+                            A AMAZON</button></a>
+                </div>
+
+            </DIV>
+
+
+        </section>
+
+
+
+
+        <div class="popup" id="popup1">
+            <div class="flex">
+                <img id='livro' src="quando as estrelas caem.png" alt="">
+
+                <span class="close" onclick="closePopup('popup1')"><img id="exit" src="exit.png"></span>
+
+                <div class="conteudo">
+                    <h3>QUANDO AS ESTRELAS CAEM</h3>
+                    <h5>MARIANA LUCIOLI</h5>
+                    <p>Os humanos sempre dizem às crianças que os monstros embaixo da cama não existem, mas a
+                        realidade
+                        é que eles te observam dentro de suas próprias mentes...<br>
+
+                        Separados por magia e vários centímetros de altura, o relacionamento entre um humano e
+                        uma fada
+                        está destinado ao fracasso. Porém, uma barganha com o Senhor dos Pesadelos pode abrir a
+                        porta
+                        para tudo aquilo que Tipper sempre sonhou: uma forma humana e uma vida ao lado de seu
+                        amor.</p>
+                    <br>
+                    <h5>369 PÁGINAS</h5>
+                    <a href="https://drive.google.com/file/d/1TLb8fro9ZjZ1nsrarrheaDE0ehJDGbM5/view?usp=drivesdk"><button
+                            id="b1" class="botaoabrir">ABRIR LIVRO</button></a>
+                    <button id="b2" class="botaoicone"><img src="favoritosc.png" alt=""></button>
+                    <button id="b3" class="botaoicone"><img src="carrinho.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section class="oquetemos">
+            <h2>O QUE TEMOS A</h2>
+            <h1>OFERECER<span>?</span></h1>
+
+
+
+            <div class="blocos">
+                <div class="bloco"><img src="wi-fi.png" title="">
+                    <p>Uma vez acessados e baixados, você pode acessar os livros offline!</p>
+                </div>
+                <div class="bloco"><img src="geometria.png" title="">
+                    <p>Uma grande variedade de títulos para escolher.</p>
+                </div>
+            </div>
+
+
+            <div class="blocos">
+                <div class="bloco"><img src="dispositivo.png" title="">
+                    <p>Acessível em diversos dispositivos, perfeito para você em qualquer lugar e em qualquer
+                        eletrônico!</p>
+                </div>
+                <div class="bloco"><img src="estrela.png" title="">
+                    <p>Possui uma mecânica de interação do usuário com a plataforma: o que você quer que seja
+                        adicionado? </p>
+                </div>
+        </section>
+
+
+
+
+
+        <section class="autores">
+            <h1 id="H11">AQUI VOCÊ ENCONTRA:</h1>
+            <div class="overflowautores">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+                <img src="img autores/machado-assis.webp" alt="">
+            </div>
+            <h1 id="H12">& MUITOS OUTROS</h1>
+
+        </section>
+
+        <section class="sugestao">
+            <h2>AGORA É SUA VEZ <SPAN>!</SPAN></h2>
+            <H1>O QUE <SPAN>VOCÊ</SPAN> GOSTARIA DE VER NO NOSSO SITE?</H1>
+            <div class="tudo">
+                <div class="inputs">
+                    <input type="text" name="NOME" placeholder="NOME"><br>
+                    <input type="email" name="EMAIL" placeholder="EMAIL"><br>
+                    <input type="text" name="SUGESTAO"
+                        placeholder="SUGIRA AQUI UM LIVRO OU MECÂNICA QUE VOCÊ GOSTARIA DE VER NO SITE!"><br>
+                </div>
+                <img src="dispositivo.png" alt="">
+            </div>
+        </section>
+
+
+
+        <section class="sobremim">
+            <img src="me.png" alt="">
+            <div class=".texto">
+                <h3>SOBRE</h3>
+                <p>Esse é um projeto elaborado por mim: <b>Ana!</b> Durante o Ensino Médio, encontrei o desafio
+                    de
+                    construir
+                    uma plataforma de leitura digital e juntar as duas coisas que mais gosto: leitura e
+                    programação. Minha plataforma
+                    não tem fins lucrativos e o único objetivo dela é ser acessível e acolhedora para todos. A
+                    ideia é
+                    mostrar justamente que o mundo da leitura pode ser divertido. Tudo o que você precisa fazer
+                    é
+                    encontrar seu estilo favorito e eu pretendo te auxiliar nessa jornada!</p>
+                <a href="https://github.com/2C-LIA-04"><button>MEU GITHUB</button></a>
+            </div>
+        </section>
+
+
+
+
+        <section class="rodape">
+            <h3>LIVRARIA DIGITAL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Nobis labore fugit consequuntur officia commodi
+                repudiandae, optio dolor cupiditate repellendus ex.<br>©2024</p>
+        </section>
+
+    </section> <!--passo ativo-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--CATEGORIAS-->
+
+
+    <div class="passo" id="passo-1"><!--AÇÃO E AVENTURA-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>AÇÃO <SPAN>&</SPAN> AVENTURA,</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA AÇÃO E AVENTURA</b></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="passo" id="passo-2"><!--AUTOAJUDA-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>AUTOAJUDA</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA AUTOAJUDA</b></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="passo" id="passo-3"><!--BIOGRAFIAS-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>BIOGRAFIAS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DAS BIOGRAFIAS</b></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="passo" id="passo-4"><!--CONTOS-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>CONTOS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DOS CONTOS</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-5"><!--CRIMES REAIS-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>CRIMES REAIS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DOS CRIMES REAIS</b></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="passo" id="passo-6"><!--EM OUTROS IDIOMAS-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>EM OUTROS IDIOMAS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DOS IDIOMAS</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-7"><!--FANTASIA-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>FANTASIA</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA FANTASIA</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-8"><!--FICÇÃO CIENTIFICA-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>FICÇÃO CIENTIFICA</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA FICÇÃO CIENTIFICA</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-9"><!--FICÇÃO LGBT-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>FICÇÃO LGBT+</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO LGBT+</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-10"><!--LITERATURA ESTRANGEIRA-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>LITERATURA ESTRANGEIRA</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci
+                    alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA LITERATURA ESTRANGEIRA</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-11"><!--NACIONAIS-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>NACIONAIS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci
+                    alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse
+                    temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA LITERATURA NACIONAL</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-12"><!--POESIA-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>POESIA</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                    adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse
+                    temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DA POESIA</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-13"><!--ROMANCE-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>ROMANCE</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                    adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis esse
+                    temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DO ROMANCE</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-14"><!--SUSPENSE-->
+        <div class="home-categoria">
+            <img src="lili searching.png">
+            <div class="texto">
+                <h2>SUSPENSE</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis
+                    esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>ACOMPANHE LILI PELO UNIVERSO DO SUSPENSE</b></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="passo" id="passo-15"><!--CARRINHO-->
+        <div class="home-categoria">
+            <img src="lili buying.png">
+            <div class="texto">
+                <h2>SEU CARRINHO</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis
+                    esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>SUA VEZ DE BRILHAR!</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="passo" id="passo-16"><!--FAVORITOS-->
+        <div class="home-categoria">
+            <img src="lili favorites.png">
+            <div class="texto">
+                <h2>SEUS FAVORITOS</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores adipisci alias
+                    laboriosam ipsa
+                    necessitatibus expedita, officiis, dolor officia nesciunt quis
+                    esse temporibus
+                    consequuntur quo aperiam,
+                    fugit molestiae quae commodi distinctio!</p><BR><BR>
+                <p><b>SUA VEZ DE BRILHAR!</b></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+ 
+  <div class="popup" id="popupx">
+     <div class="flex">
+         <img id='livro' src="">
+         <span class="close" onclick="closePopup('popup1')"><img id="exit" src="exit.png"></span>
+         <div class="conteudo">
+             <h3>NOME</h3>
+             <h5>AUTOR</h5>
+             <p>SINOPSE</p>
+             <br>
+             <h5>N PÁGINAS</h5>
+
+             
+             <a href=""><button
+                     id="b1" class="botaoabrir">ABRIR LIVRO</button></a>
+
+             <button id="b2" class="botaoicone"><img src="favoritosc.png"></button>
+             <button id="b3" class="botaoicone"><img src="carrinho.png"></button>
+         </div>
+     </div>
+ </div>-->

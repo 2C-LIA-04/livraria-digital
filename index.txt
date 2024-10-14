@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- ANA JÙLIA RIBEIRO FERREIRA - 2c-->
+
+<html lang="pt-br">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVRARIA DIGITAL</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--<link rel="stylesheet" href="reset.css"/>-->
+    <link rel="icon" type="image/png" href="e-book.png">
+
+</head>
+
+
+<header>
+    <section class="container">
+
+        <div class="esquerda">
+            <button id="botao"><img src="guia.png" alt="guia"></button>
+            <div class="menuitens" id="menu">
+                <h2 style="text-align: center; margin: 15px;">CATEGORIAS</h2>
+                <div class="div1">
+                    <button class="item" href="">ROMANCE</button>
+                    <button class="item" href="">AÇÃO E AVENTURA</button>
+                    <button class="item" href="">SUSPENSE</button>
+                    <button class="item" href="">NACIONAIS</button>
+                    <button class="item" href="">FICÇÃO CIENTÍFICA</button>
+                    <button class="item" href="">FANTASIA</button>
+                    <button class="item" href="">BIOGRAFIAS</button>
+                </div>
+                <div class="div2">
+                    <a class="item" href="">FICÇÃO LGBTQ+</a>
+                    <a class="item" href="">CONTOS</a>
+                    <a class="item" href="">AUTOAJUDA</a>
+                    <a class="item" href="">CRIMES REAIS</a>
+                    <a class="item" href="">POESIA</a>
+                    <a class="item" href="">LITERATURA ESTRANGEIRA</a>
+                    <a class="item" href="">EM OUTROS IDIOMAS</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="direita">
+            <button id="botao" href=""><img src="favoritosm.png" alt="favoritos"></button>
+            <button id="botao" href=""><img src="carrinho.png" alt="carrinho"></button>
+            <button id="botao" href=""><img src="usuário.png" alt="carrinho"></button>
+        </div>
+    </section>
+
+
+
+</header>
+
+
+
+
+
+
+
+<body>
+    <section class="inicio">
+        <h2>BEM-VINDO À NOSSA</h2>
+        <h1>LIVRARIA DIGITAL</h1>
+
+
+        <div class="barrapesquisa">
+            <img src="lupa.png" id="lupa" alt="lupa">
+            <input type="search" id="barra" placeholder="Qual será sua próxima leitura?">
+        </div>
+
+        <div class="redirect">
+            <button id="botaopretocomum" style="margin-left: 250px">Lorem ipsum, dolor sit amet.</button>
+            <button id="botaopretocomum">Lorem ipsum. </button>
+            <button id="botaopretocomum">Lorem ipsum, dolor.</button>
+            <button id="botaopretocomum">Lorem ipsum, dolor sit.</button>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="bloco">
+
+            <div class="bloco2">
+                <h1>A IMPORTÂNCIA DA LEITURA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aperiam a sunt asperiores
+                    molestiae
+                    dignissimos facere. Recusandae iure dolore, ipsa voluptatibus totam eveniet repellat commodi
+                    perspiciatis,
+                    esse ipsam atque quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente unde
+                    minima
+                    optio
+                    tempore quam non! Praesentium, numquam! Facilis facere, sed rerum esse expedita voluptatibus
+                    dignissimos
+                    praesentium quisquam aspernatur nesciunt quia!</p>
+
+            </div>
+
+        </div>
+
+        <div class="topicos">
+            <div class="quadro1">
+                <h3>lorem ipsum</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione optio animi ipsum. Minima in quas
+                    praesentium sed, itaque eum, repudiandae excepturi, fuga iste exercitationem quo quam quibusdam
+                    omnis
+                    nam repellat.</p>
+            </div>
+            <div class="quadro2">
+                <h3>lorem ipsum</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione optio animi ipsum. Minima in quas
+                    praesentium sed, itaque eum, repudiandae excepturi, fuga iste exercitationem quo quam quibusdam
+                    omnis
+                    nam repellat.</p>
+            </div>
+            <div class="quadro3">
+                <h3>lorem ipsum</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione optio animi ipsum. Minima in quas
+                    praesentium sed, itaque eum, repudiandae excepturi, fuga iste exercitationem quo quam quibusdam
+                    omnis
+                    nam repellat.</p>
+            </div>
+            <h2 style="color: var(--cor-principal)">TEXTO PRA ESPAÇAMENTO</h2>
+        </div>
+
+    </section>
+
+
+    <section class="apresentacao">
+        <div class="tituloapresentacao">
+            <h2>SUA LIVRARIA DIGITAL FAVORITA,</h2>
+            <h1>NOME</h1>
+        </div>
+
+    </section>
+
+
+    <section class="sobremim">
+        <img src="me.png" alt="">
+        <div>
+            <h3>lorem ipsum dolor sit</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel labore laudantium, temporibus, ullam
+                sapiente,
+                odit ipsa vero distinctio ipsam quasi totam provident maiores iste! Sunt eum ipsa cupiditate sapiente
+                qui?</p>
+            <a href=""><button style="margin: 50px 0 0 80px" id="botaobranco">MEU GITHUB</button></a>
+
+        </div>
+    </section>
+
+
+    <section class="rodape">
+        <h3>LIVRARIA DIGITAL</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis labore fugit consequuntur officia commodi
+            repudiandae, optio dolor cupiditate repellendus ex.</p>
+        <p>©2024</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.body.style.zoom = "90%"
+
+
+
+
+        document.getElementById('botao').addEventListener('click',
+            function () {
+                var menu = document.getElementById('menu')
+                if (menu.style.display === 'block') {
+                    menu.style.display = 'none';
+                }
+                else {
+                    menu.style.display = 'block'
+
+                }
+            });
+
+        window.addEventListener('click', function (event) {
+            var menu = document.getElementById('menu');
+            var button = document.getElementById('botao');
+            if (event.target !== menu && event.target !== button) {
+                menu.style.display = 'none';
+            }
+        })
+    </script>
+</body>
+
+
+
+
+</html>
